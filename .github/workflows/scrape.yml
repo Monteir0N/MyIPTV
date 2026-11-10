@@ -1,9 +1,6 @@
 name: Scrape Vavoo M3U
 
 on:
-  schedule:
-    - cron: '0 * * * *'   # every hour, UTC
-    - cron: '0 */2 * * *'
   workflow_dispatch:        # manual run from Actions tab
 
 permissions:
